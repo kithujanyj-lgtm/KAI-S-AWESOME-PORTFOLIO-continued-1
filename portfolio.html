@@ -1,8 +1,38 @@
 <html>
-    <title>
+    <head>
+        <title>Kai'sPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+     <body style=
+     "background:#050505;
+     color:#00ff40;
+     font-family:monospace;
+     text-align:center">
 
-    </title>
-    <body>
-        
-    </body>
+    <div class="typewriter">
+<font size="6">
+<h1> I'm Kai! ⚞`⎚⩊⎚´⚟ </h1>
+</font>
+</div>
+<font size="5">
+ <h2>ACCESS GRANTED</h2>
+</font>
+ <p id="typing"></p>
+
+ <script>
+        const text = "welcome to my portfolio...";
+        let i = 0;
+
+        function type() {
+            if (i < text.length) {
+                document.getElementById("typing").textContent += text[i];
+                i++;
+                setTimeout(type, 100);
+            }
+        }
+        window.onload = type;
+    </script>
+</div>
+</body>
+
 </html>
