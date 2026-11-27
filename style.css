@@ -63,3 +63,12 @@
         transform: translateY(0);
     }
 }
+html {
+    scrollbar-color: green;
+    scrollbar-width: auto;
+}
+
+
+::selection {
+    background:#73e18f
+}
